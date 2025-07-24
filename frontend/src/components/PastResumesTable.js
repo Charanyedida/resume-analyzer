@@ -12,7 +12,7 @@ const PastResumesTable = ({ onViewDetails }) => {
 
   const fetchResumes = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/resumes');
+      const response = await axios.get('https://resume-analyzer-backend-h5fa.onrender.com/api/resumes');
       setResumes(response.data);
     } catch (error) {
       console.error('Error fetching resumes:', error);
@@ -24,7 +24,7 @@ const PastResumesTable = ({ onViewDetails }) => {
 
   const handleViewDetails = async (id) => {
     try {
-      const response = await axios.get(`http://localhost:5000/api/resumes/${id}`);
+      const response = await axios.get(`https://resume-analyzer-backend-h5fa.onrender.com/api/resumes/${id}`);
       onViewDetails(response.data);
     } catch (error) {
       console.error('Error fetching resume details:', error);

@@ -60,7 +60,7 @@ const ResumeUploader = () => {
     formData.append('resume', file);
 
     try {
-      const response = await axios.post('http://localhost:5000/api/resumes/upload', formData, {
+      const response = await axios.post('https://resume-analyzer-backend-h5fa.onrender.com/api/resumes/upload', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
