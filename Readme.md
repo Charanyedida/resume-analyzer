@@ -2,7 +2,6 @@
 
 
 
-![Resume Analyzer](https://img.shields.io/badge/Resume.ini](https://img.shields.provement suggestions using Google Gemini API**
 
 [🚀 Live Demo](https://resume-analyzer-omega-steel.vercel.app/) | [📖 API Docs](#api-endpoints) | [🛠️ Setup Guide](#installation)
 
